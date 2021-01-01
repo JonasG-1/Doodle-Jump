@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Platform
+comment1.params=
+comment1.target=Platform()
+comment10.params=
+comment10.target=void\ szeneReset()
+comment2.params=platid
+comment2.target=double\ gibposX(int)
+comment3.params=platid
+comment3.target=double\ gibposY(int)
+comment4.params=platid\ verschiebung
+comment4.target=void\ verschiebe(int,\ double)
+comment5.params=platid\ xPos\ yPos
+comment5.target=void\ setzePosition(int,\ int,\ double)
+comment6.params=
+comment6.target=void\ kugelSetzen()
+comment7.params=platid\ r\ g\ b
+comment7.target=void\ setzeFarbe(int,\ double,\ double,\ double)
+comment7.text=\r\n\ public\ void\ plattformErstellen(int\ platid,\ double\ posX,\ double\ posY){\r\n\ switch(platid){\ case\ 1\:\ p1\ \=\ new\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\r\n\ 2\:\ p2\ \=\ new\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 3\:\ p3\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 4\:\ p4\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 5\:\ p5\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 6\:\ p6\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 7\:\ p7\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 8\:\ p8\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 9\:\ p9\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 10\:\ p10\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 11\:\ p11\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 12\:\ p12\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 13\:\ p13\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 14\:\ p14\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ case\ 15\:\ p15\ \=\ new\r\n\ GLQuader(posX,posY,0,60,10,0);\ break;\ default\:\r\n\ \r\n\ System.out.println("[\u2622\ ]\ Ein\ Fehler\ ist\ aufgetreten\!");\ Sys.beenden();\ }\ }\r\n
+comment8.params=platid\ r\ g\ b
+comment8.target=void\ setzeKugelFarbe(int,\ double,\ double,\ double)
+comment9.params=
+comment9.target=void\ szeneAufbauen()
+numComments=11

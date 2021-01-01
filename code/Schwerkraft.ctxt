@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Schwerkraft
+comment1.params=
+comment1.target=Schwerkraft()
+comment2.params=zahl\ schwerkraft
+comment2.target=int\ schwerkraftZaehler(int,\ double)
+comment3.params=zahl\ schwerkraft
+comment3.target=double\ schwerkraftBerechner(int,\ double)
+numComments=4

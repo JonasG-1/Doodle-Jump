@@ -1,0 +1,7 @@
+GLOOP (Graphics Library for Object-Oriented Programming). 
+---------------------------------------------------------
+
+Autor (Copyright): Volker Quade, volker.quade@udo.edu
+Version: 3.7, Februar 2014 (BETA)
+
+Die Bibliothek GLOOP darf zu Unterrichtszwecken an Schulen kostenfrei genutzt werden. 
