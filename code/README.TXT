@@ -9,12 +9,15 @@ PROJEKTZWECK:
     Spiel
 
 VERSION oder DATUM:
-    Ver.: 1.2
+    Ver.: 1.3
     Dat.: 08.10.2020
 
 WIE IST DAS PROJEKT ZU STARTEN:
+    In BlueJ:
     1. Klasse "main" rechtsklicken
     2. "public static void main()" anklicken
+    ODER:
+    "start.bat" ausführen
 
 AUTOR:
     Jonas Goldbach
@@ -31,6 +34,8 @@ VERSION LOG:
                 - Möglichkeit nur Münzen oder nur Benzin zu benutzen
             - Das Spiel kann nun pausiert werden:
                 - [Esc] drücken zum pausieren, [Esc/Enter] drücken, um die Pausierung aufzuheben
+            - Das "Game Over"-Menu wurde überarbeitet
+            - Neuer Hintergrund, der sich nun mit dem Springer bewegt
 
         Bugfixes:
 
@@ -44,7 +49,7 @@ VERSION LOG:
             - Die Gesamtanzahl des gesammelten Benzins wird am Ende angezeigt
         - Münzen hinzugefügt:
             - Anzahl der Münzen werden am Ende angezeigt
-        - Schwierigkeit erhöht sich über Zeit:
+        - Schwierigkeit erhöht sich über Zeit (wenn das Benzin aktiviert ist):
             - Benzinkanister geben weniger Benzin nach gewisser Zeit
             - Nachrichten am oberen Bildschirmrand bei Erhöhung der Schwierigkeit
         - Endbildschirm überarbeitet / hinzugefügt:
