@@ -13,8 +13,7 @@ PROJEKTZWECK:
 VERSION oder DATUM:
     1.0 - 21.05.2021
 WIE IST DAS PROJEKT ZU STARTEN:
-    Entweder die beigefügte Executable ausführen (start.bat), oder in BlueJ die Klasse
-    "Spiel" rechtsklicken und "void main(String[] args)" auswählen.
+    In der Klasse "Main.java" die Methode "main" starten.
 AUTOR(EN):
     Jonas Goldbach - EF
 BENUTZERHINWEISE:
