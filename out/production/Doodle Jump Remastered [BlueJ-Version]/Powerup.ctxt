@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Powerup
+comment1.params=pX\ pY\ pZ
+comment1.target=Powerup(double,\ double,\ double)
+comment2.params=pX\ pY\ pZ
+comment2.target=void\ setzePosition(double,\ double,\ double)
+comment3.params=pX\ pY\ pZ
+comment3.target=void\ verschiebe(double,\ double,\ double)
+comment4.params=
+comment4.target=void\ loesche()
+comment5.params=
+comment5.target=double[]\ gibKoordinaten()
+numComments=6

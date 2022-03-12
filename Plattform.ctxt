@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Plattform
+comment1.params=pX\ pY
+comment1.target=Plattform(double,\ double)
+comment2.params=pR\ pG\ pB
+comment2.target=void\ setzeFarbe(double,\ double,\ double)
+comment3.params=pX\ pY
+comment3.target=void\ verschiebe(double,\ double)
+comment4.params=pX\ pY\ pZ
+comment4.target=void\ setzePosition(double,\ double,\ double)
+comment5.params=pS
+comment5.target=void\ setzeSichtbarkeit(boolean)
+comment6.params=
+comment6.target=void\ loesche()
+comment7.params=
+comment7.target=void\ animiere()
+comment8.params=
+comment8.target=double[]\ gibKoordinaten()
+numComments=9

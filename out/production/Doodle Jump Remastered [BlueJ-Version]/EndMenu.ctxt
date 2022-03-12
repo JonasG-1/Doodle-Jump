@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=EndMenu
+comment1.params=quickStart
+comment1.target=EndMenu(boolean)
+comment2.params=option
+comment2.target=boolean\ endScreen(int)
+comment3.params=
+comment3.target=void\ fadeIn()
+comment4.params=
+comment4.target=void\ fadeOut()
+numComments=5

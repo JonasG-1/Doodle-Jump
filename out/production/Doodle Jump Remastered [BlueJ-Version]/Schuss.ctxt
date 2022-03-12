@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Schuss
+comment1.params=pX\ pY\ pZ
+comment1.target=Schuss(double,\ double,\ double)
+comment2.params=
+comment2.target=void\ schiesse()
+comment3.params=
+comment3.target=void\ loesche()
+comment4.params=
+comment4.target=double[]\ gibKoordinaten()
+numComments=5

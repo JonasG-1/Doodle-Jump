@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SpringerRainbow
+comment1.params=
+comment1.target=SpringerRainbow()
+comment2.params=pX\ pY\ pZ\ pFacing
+comment2.target=void\ verschiebe(double,\ double,\ double,\ int)
+numComments=3

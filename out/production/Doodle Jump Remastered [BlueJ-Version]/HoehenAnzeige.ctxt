@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HoehenAnzeige
+comment1.params=pX\ pY\ pZ\ pLX\ pLY
+comment1.target=HoehenAnzeige(double,\ double,\ double,\ double,\ double)
+comment2.params=pY
+comment2.target=void\ verschiebePointer(double)
+comment3.params=pY
+comment3.target=void\ setzePointer(double)
+comment4.params=
+comment4.target=double\ gibProzent()
+comment5.params=
+comment5.target=void\ loesche()
+numComments=6

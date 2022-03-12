@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Anzeige
+comment1.params=pX\ pY\ pZ\ pLX\ pLY
+comment1.target=Anzeige(double,\ double,\ double,\ double,\ double)
+comment2.params=pX\ pY\ pZ
+comment2.target=void\ setzePosition(double,\ double,\ double)
+comment3.params=pX\ pY\ pZ
+comment3.target=void\ verschiebe(double,\ double,\ double)
+comment4.params=
+comment4.target=void\ loesche()
+comment5.params=type
+comment5.target=void\ updateCounter(int)
+comment6.params=type
+comment6.target=void\ updateDigits(int)
+numComments=7

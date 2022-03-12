@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SpringerVerwaltung
+comment1.params=
+comment1.target=SpringerVerwaltung()
+comment2.params=pX\ pY\ pZ\ pFacing
+comment2.target=void\ verschiebe(double,\ double,\ double,\ int)
+comment3.params=pX\ pY\ pZ\ pFacing
+comment3.target=void\ setzePosition(double,\ double,\ double,\ int)
+comment4.params=
+comment4.target=void\ loesche()
+comment5.params=pLowest
+comment5.target=double[]\ gibKoordinaten(boolean)
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Spiel
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=optionOw\ essentials
+comment2.target=Spiel(int,\ boolean)
+comment3.params=
+comment3.target=void\ game()
+comment4.params=optionOw
+comment4.target=void\ reset(int)
+comment5.params=optionOw
+comment5.target=void\ initiate(int)
+numComments=6

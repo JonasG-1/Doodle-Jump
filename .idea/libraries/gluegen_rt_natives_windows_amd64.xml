@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="gluegen-rt-natives-windows-amd64">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/gluegen-rt-natives-windows-amd64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/gluegen-rt-natives-windows-i586.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/gluegen-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/jogl-all-natives-windows-amd64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/jogl-all-natives-windows-i586.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/jogl-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/GLOOP.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../../../../../../../Program Files/BlueJ/lib/userlib/GLOOP.jar!/doc" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

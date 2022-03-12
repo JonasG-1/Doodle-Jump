@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Menu
+comment1.params=
+comment1.target=Menu()
+comment2.params=
+comment2.target=int\ getOption()
+comment3.params=type
+comment3.target=boolean\ abfrage(int)
+comment4.params=seite\ enter
+comment4.target=void\ animation(int,\ int)
+comment5.params=option
+comment5.target=void\ changeAnimation(int)
+comment6.params=
+comment6.target=void\ fadeOut()
+comment7.params=
+comment7.target=void\ updateDigits()
+numComments=8

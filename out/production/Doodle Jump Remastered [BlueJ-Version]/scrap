@@ -1,0 +1,190 @@
+ private boolean abfrage(int type){
+        // Mausabmessungen
+        // Karte 1
+            // X: 320 Y: 285 - X: 605 Y: 715
+        // Karte 1
+            // X: 800 Y: 285 - X: 1075 Y: 715
+
+        int done = 1;
+        int ausgewaehlt = 1;
+        int gedrueckt = 0;
+        boolean option = false;
+
+        while (done == 1) {
+            //System.out.println(maus.gibX()+ ", " + maus.gibY());
+            int mausX = maus.gibX();
+            int mausY = maus.gibY();
+            if (mausX >= 320 && mausX <= 605 && mausY >= 285 && mausY <= 715){
+                if (ausgewaehlt == 1){
+                    ausgewaehlt = 1;
+                } else {
+                    ausgewaehlt = 1;
+                    animation(2,0);
+                }
+                if (maus.gedruecktLinks()){
+                    option = true;
+                    done = 2;
+                    animation(ausgewaehlt,1);
+                    while (maus.gedruecktLinks()){
+                        Sys.warte();
+                    }
+                    animation(ausgewaehlt,2);
+                }
+            } else if (mausX >= 800 && mausX <= 1075 && mausY >= 285 && mausY <= 715){
+                if (ausgewaehlt == 2){
+                    ausgewaehlt = 2;
+                } else {
+                    ausgewaehlt = 2;
+                    animation(1,0);
+                }
+                if (maus.gedruecktLinks()){
+                    option = false;
+                    done = 2;
+                    animation(ausgewaehlt,1);
+                    while (maus.gedruecktLinks()){
+                        Sys.warte();
+                    }
+                    animation(ausgewaehlt,2);
+                    animation(2,0);
+                }
+            } else if (ktomVisible){
+                ktomVisible = false;
+            }
+            if (tastatur.links() || tastatur.istGedrueckt('a') || tastatur.rechts() || tastatur.istGedrueckt('d')
+                    || tastatur.enter()) {
+                if (gedrueckt == 0) {
+                    if (tastatur.rechts() || tastatur.istGedrueckt('d')) {
+                        ausgewaehlt = ausgewaehlt + 1;
+                        if (ausgewaehlt >= 3) {
+                            ausgewaehlt = 2;
+                        } else if (ausgewaehlt == 2){
+                            animation(1,0);
+                        }
+                    } else if (tastatur.links() || tastatur.istGedrueckt('a')) {
+                        ausgewaehlt = ausgewaehlt - 1;
+                        if (ausgewaehlt <= 0) {
+                            ausgewaehlt = 1;
+                        } else if (ausgewaehlt == 1){
+                            animation(2,0);
+                        }
+                    } else if (tastatur.enter()) {
+                        if(ausgewaehlt == 1){
+                            option = true;
+                            animation(ausgewaehlt,1);
+                            while (tastatur.enter()){
+                                Sys.warte();
+                            }
+                            animation(ausgewaehlt,2);
+                            done = 2;
+                        } else if (ausgewaehlt == 2){
+                            option = false;
+                            animation(ausgewaehlt,1);
+                            while (tastatur.enter()){
+                                Sys.warte();
+                            }
+                            animation(ausgewaehlt,2);
+                            animation(ausgewaehlt,0);
+                            done = 2;
+                        }
+                    }
+                }
+                gedrueckt = 1;
+            } else {
+                gedrueckt = 0;
+            }
+            Sys.warte(1);
+        }
+        return option;
+    }
+
+    private void animation(int seite, int enter){
+        if(enter == 0){
+            if(seite == 1){
+                for (int i = 0; i <= 49; i++){
+                    karteAuswahl.verschiebe(5,0,0);
+                    karteRechts.skaliere(1.001,1.001,0);
+                    karteLinks.skaliere(0.999,0.999,0);
+                    //karteLinks.verschiebe(0,0,-0.1);
+                    //karteRechts.verschiebe(0,0,0.1);
+                    Sys.warte();
+                }
+            } else if (seite == 2){
+                for (int i = 0; i <= 49; i++){
+                    karteAuswahl.verschiebe(-5,0,0);
+                    karteRechts.skaliere(0.999,0.999,0);
+                    karteLinks.skaliere(1.001,1.001,0);
+                    //karteLinks.verschiebe(0,0,0.1);
+                    //karteRechts.verschiebe(0,0,-0.1);
+                    Sys.warte();
+                }
+            }
+        } else {
+            if(enter == 1){
+                if(seite == 1){
+                    for (int i = 0; i <= 50; i++) {
+                        karteLinks.skaliere(0.999, 0.999, 0);
+                        Sys.warte();
+                    }
+                } else if (seite == 2){
+                    for (int i = 0; i <= 50; i++) {
+                        karteRechts.skaliere(0.999, 0.999, 0);
+                        Sys.warte();
+                    }
+                } else {
+                    System.out.println("Animationsfehler!");
+                }
+            } else if (enter == 2){
+                if(seite == 1){
+                    for (int i = 0; i <= 50; i++) {
+                        karteLinks.skaliere(1.001,1.001,0);
+                        Sys.warte();
+                    }
+                } else if (seite == 2){
+                    for (int i = 0; i <= 50; i++) {
+                        karteRechts.skaliere(1.001,1.001,0);
+                        Sys.warte();
+                    }
+                } else {
+                    System.out.println("Animationsfehler!");
+                }
+            } else {
+                System.out.println("Animationsfehler!");
+            }
+        }
+    }
+
+    private void changeAnimation(int option){
+        for (int i = 0; i <= 89; i++){
+            if (i <= 44) {
+                karteLinks.skaliere(0.995, 0.995, 0);
+                karteRechts.skaliere(0.995, 0.995, 0);
+                karteLinks.drehe(0,4,0);
+                karteRechts.drehe(0,4,0);
+            }
+            if (i >= 45) {
+                karteLinks.skaliere(1.005,1.005,0);
+                karteRechts.skaliere(1.005,1.005,0);
+                karteLinks.drehe(0,4,0);
+                karteRechts.drehe(0,4,0);
+            }
+            if(i == 45){
+                switch (option){
+                    case 1:
+                        karteLinks.setzeTextur("cardBenzin.png");
+                        karteRechts.setzeTextur("cardOff.png");
+                        break;
+                    case 2:
+                        karteLinks.setzeTextur("cardMuenze.png");
+                        karteRechts.setzeTextur("cardOff.png");
+                        break;
+                    case 3:
+                        karteLinks.setzeTextur("cardStart.png");
+                        karteRechts.setzeTextur("cardCancel.png");
+                        break;
+                    default:
+                        System.out.println("Animationsfehler!");
+                }
+            }
+            Sys.warte();
+        }
+    }

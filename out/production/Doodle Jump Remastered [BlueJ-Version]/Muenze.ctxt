@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Muenze
+comment1.params=pX\ pY\ pZ
+comment1.target=Muenze(double,\ double,\ double)
+comment2.params=pX\ pY\ pZ
+comment2.target=void\ setzePosition(double,\ double,\ double)
+comment3.params=pX\ pY\ pZ
+comment3.target=void\ verschiebe(double,\ double,\ double)
+comment4.params=pX\ pY\ pZ
+comment4.target=void\ drehe(double,\ double,\ double)
+comment5.params=pX\ pY\ pZ
+comment5.target=void\ setzeDrehung(double,\ double,\ double)
+comment6.params=
+comment6.target=void\ loesche()
+numComments=7

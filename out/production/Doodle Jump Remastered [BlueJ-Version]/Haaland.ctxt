@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Haaland
+comment1.params=
+comment1.target=Haaland()
+comment2.params=state
+comment2.target=void\ changeState(int)
+comment3.params=textur
+comment3.target=void\ setzeTextur(java.lang.String)
+comment4.params=pX\ pY\ pZ
+comment4.target=void\ setzePosition(double,\ double,\ double)
+comment5.params=pX\ pY\ pZ
+comment5.target=void\ verschiebe(double,\ double,\ double)
+comment6.params=
+comment6.target=void\ loesche()
+comment7.params=
+comment7.target=double[]\ gibKoordinaten()
+numComments=8
